@@ -4,3 +4,6 @@ dkkkk
 
 진짜임
 
+int main 오징어
+  /d ma
+왜안바뀌는거ㅑ야
