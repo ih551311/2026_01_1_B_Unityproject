@@ -6,4 +6,5 @@ dkkkk
 
 int main 오징어
   /d ma하이
+하이
 왜안바뀌는거ㅑ야
