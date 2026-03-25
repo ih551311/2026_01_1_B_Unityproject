@@ -4,7 +4,7 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
 
-    public float moveSpeed = 5f;     // 이동 속도 변수 설정
+    public float moveSpeed = 8f;     // 이동 속도 변수 설정
     public float jumpForce = 5f;
     public Rigidbody rb;  //플레이어 강체 선언
 
@@ -35,6 +35,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.tag == "coin")
+            {
+                coinCount++;
+                Destroy(collision.gameObject);
+            }
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
