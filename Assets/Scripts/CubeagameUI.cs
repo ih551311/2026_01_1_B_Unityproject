@@ -4,7 +4,7 @@ using TMPro;
 
 public class CubeagameUI : MonoBehaviour
 {
-public TextMeshProUGUI TimerText;
+        public TextMeshProUGUI TimerText;
         public float Timer;
 
         void start ()
