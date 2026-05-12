@@ -64,7 +64,7 @@ public class FruitGame : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && fruitTimer == -3.0f;
         {
-            DropFruit();    
+             DropFruit();    
         }
     }
 
